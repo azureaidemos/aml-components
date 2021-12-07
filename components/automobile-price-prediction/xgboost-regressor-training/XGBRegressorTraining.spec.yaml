@@ -55,7 +55,7 @@ environment:
         - --index-url https://azuremlsdktestpypi.azureedge.net/dev/aml/office/134157926D8F
         - --extra-index-url https://pypi.org/simple
         - pyarrow
-        - pandas
+        - pandas==1.2.0
         - scikit-learn
         - numpy
         - xgboost
